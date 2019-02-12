@@ -1,0 +1,19 @@
+ToDo
+===================
+1. Remove Namespace and Class analyses before posting to college server
+
+Done
+===================
+1. treat underscore '_' as a letter
+2. factor into:
+   - TestExec
+   - Toker
+   - TokenContext
+   - TokenState
+   - DerivedStates
+   - TokenSource
+3. Add SemiExp
+4. Fails on TestCase_EligibleCheck.cs
+   - problem was @"..." format for C# strings
+   - new fixed
+ 
